@@ -1,5 +1,7 @@
 
-print("test name varible: ", __name__)
 
-if __name__ == "__main__":
-    print("Hi! test now.")
+temp= [1,2,3,4,5,6,7,8,9,10]
+if __name__=="__main__":
+    print(temp)
+    temp = temp[2:-2]
+    print(temp)
